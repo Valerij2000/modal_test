@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta content="description" name="In this tutorial, we create revealing content overlays with CSS3 transitions,  allowing us to minimise content clutter and provide a neat user experience.">
+  <title>Revealing Content Overlays With CSS3 Transitions</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- js -->
+  <script src="js/modernizr.js"></script>
+  
+</head>
+
+<body>
+
+<div class="wrapper">
+  
+  <div class="info-bar">
+    <div class="container">
+      <a class="icon cmn-tut" data-title="Back To Tutorial" href="http://www.callmenick.com/?p=660"></a>
+      <a class="icon cmn-prev" data-title="Pevious Demo - Full Width Responsive Tile Navigation With CSS" href="http://callmenick.com/tutorial-demos/tile-navigation/"></a>
+      <!-- <a class="icon cmn-next" data-title="Next Demo - " href="http://www.callmenick.com/tutorial-demos/..."></a> -->
+      <a class="icon cmn-download" data-title="Download Source" href="http://www.callmenick.com/tutorial-demos/revealing-content-overlays/revealing-content-overlays-source.zip"></a>
+      <a class="icon cmn-archive" data-title="Tutorial Archives" href="http://www.callmenick.com/category/tutorials/"></a>
+    </div>
+  </div><!-- /.info-bar -->
+
+  <header>
+    
+    <div class="container">
+      <div class="branding clearfix">
+        <div class="logo">
+          <a href="http://www.callmenick.com">
+            <img src="img/core/logo.svg" onerror="this.src=logo.png" alt="Call Me Nick - Tutorials, Resources, &amp; Articles for Web Design &amp; Web Development">
+          </a>
+        </div><!-- /.logo -->
+        <div class="social">
+          <nav>
+            <a class="fb" href="https://www.facebook.com/callmenick1" target="_blank">facebook</a>
+            <a class="twitter" href="https://twitter.com/nicksalloum_" target="_blank">twitter</a>
+            <a class="googleplus" href="https://plus.google.com/115555859876227750152/" target="_blank">google plus</a>
+            <a class="rss" href="http://feeds.feedburner.com/callmenick_" target="_blank">rss</a>
+            <a class="email" href="http://www.callmenick.com/subscribe/">email</a>
+          </nav>
+        </div><!-- /.social -->
+      </div><!-- /.branding -->
+    </div><!-- /.container -->
+
+    <div class="site-title">
+      <div class="container">
+        <h1>Tutorial Demo</h1>
+      </div>
+    </div><!-- /.site-title -->
+
+  </header>
+
+  <main>
+    <div class="container">
+      
+      <nav class="cmn-overlays-nav">
+        <ul class="clearfix">
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#css">CSS</a></li>
+          <li><a href="#js">JavaScript</a></li>
+          <li><a href="#php">PHP</a></li>
+          <li><a href="#rails">Rails</a></li>
+          <li><a href="#swift">Swift</a></li>
+        </ul>
+      </nav><!-- /nav.cmn-overlays-nav -->
+
+      <section id="html">
+        <div class="content">
+          <article>
+            <h2>HTML</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+          </article>
+          <a href="#" class="close">x</a>
+        </div><!-- /.content -->
+      </section><!-- /section#html -->
+
+      <section id="css">
+        <div class="content">
+          <article>
+            <h2>CSS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+          </article>
+          <a href="#" class="close">x</a>
+        </div><!-- /.content -->
+      </section><!-- /section#css -->
+
+      <section id="js">
+        <div class="content">
+          <article>
+            <h2>JS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+          </article>
+          <a href="#" class="close">x</a>
+        </div><!-- /.content -->
+      </section><!-- /section#js -->
+
+      <section id="php">
+        <div class="content">
+          <article>
+            <h2>PHP</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+          </article>
+          <a href="#" class="close">x</a>
+        </div><!-- /.content -->
+      </section><!-- /section#php -->
+
+      <section id="rails">
+        <div class="content">
+          <article>
+            <h2>Rails</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+          </article>
+          <a href="#" class="close">x</a>
+        </div><!-- /.content -->
+      </section><!-- /section#rails -->
+
+      <section id="swift">
+        <div class="content">
+          <article>
+            <h2>Swift</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+          </article>
+          <a href="#" class="close">x</a>
+        </div><!-- /.content -->
+      </section><!-- /section#swift -->
+
+    </div>
+  </main><!-- /main -->
+
+  <footer>
+    <div class="container">
+      <div class="asides clearfix">
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="http://www.callmenick.com/">Welcome</a></li>
+              <li><a href="http://www.callmenick.com/category/tutorials">Tutorials</a></li>
+              <li><a href="http://www.callmenick.com/category/snippets">Snippets</a></li>
+              <li><a href="http://www.callmenick.com/category/articles">Articles</a></li>
+              <li><a href="http://www.callmenick.com/category/resources">Resources</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="http://www.callmenick.com/archive/">Archive</a></li>
+              <li><a href="http://www.callmenick.com/about">About</a></li>
+              <li><a href="http://www.callmenick.com/contact">Contact</a></li>
+              <li><a href="http://www.callmenick.com/subscribe">Subscribe</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <aside class="logo">
+          <a href="http://www.callmenick.com/"><img alt="Tutorials, Snippets, Resources, and Articles for Web Design and Web Development" onerror="this.src=logo.png" src="img/core/logo.svg"></a>
+        </aside>
+      </div>
+      <div class="copyright">
+        <small>
+          &copy; 2014, Nick Salloum<br><a href="http://callmenick.com">callmenick.com</a>
+        </small>
+      </div>
+    </div>
+  </footer><!-- /footer -->
+  
+</div><!-- /#wrapper -->
+
+<!-- js -->
+<script src="js/classie.js"></script>
+<script src="js/demo.js"></script>
+
+</body>
+</html>
